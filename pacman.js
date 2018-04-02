@@ -1028,6 +1028,8 @@ var PACMAN = (function () {
     };
     
     // FUNCION INICIAL
+
+    // Params ( Wrapper = Resived DIV to work 'pacman', root = resived path)
     function init(wrapper, root) {
         
         var i, len, ghost,
@@ -1312,3 +1314,5 @@ Object.prototype.clone = function () {
     }
     return newObj;
 };
+
+
